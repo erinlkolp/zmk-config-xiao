@@ -22,11 +22,11 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-       &kp ESC             &kp N1     &kp N2    &kp N3            &kp N4      &kp N5     &kp N6  &kp N7             &kp N8     &kp N9    &kp N0  &kp EQUAL
-       &kp TAB              &kp Q      &kp W     &kp E             &kp R       &kp T      &kp Y   &kp U              &kp I      &kp O     &kp P  &kp ENTER
-     &kp LSHFT              &kp A      &kp S     &kp D             &kp F       &kp G      &kp H   &kp J              &kp K      &kp L  &kp SEMI    &kp SQT
-     &kp GRAVE              &kp Z      &kp X     &kp C             &kp V       &kp B      &kp N   &kp M          &kp COMMA    &kp DOT  &kp FSLH   &kp BSLH
- &kp BACKSPACE  &kp RIGHT_BRACKET  &kp SPACE  &kp LGUI  &kp LEFT_BRACKET  &kp DELETE  &kp MINUS   &mo 2  &kp RIGHT_CONTROL  &kp SPACE     &mo 1  &kp ENTER
+       &kp ESC         &kp N1             &kp N2    &kp N3     &kp N4            &kp N5     &kp N6  &kp N7     &kp N8     &kp N9    &kp N0  &kp EQUAL
+       &kp TAB          &kp Q              &kp W     &kp E      &kp R             &kp T      &kp Y   &kp U      &kp I      &kp O     &kp P  &kp ENTER
+     &kp LSHFT          &kp A              &kp S     &kp D      &kp F             &kp G      &kp H   &kp J      &kp K      &kp L  &kp SEMI    &kp SQT
+     &kp GRAVE          &kp Z              &kp X     &kp C      &kp V             &kp B      &kp N   &kp M  &kp COMMA    &kp DOT  &kp FSLH   &kp BSLH
+ &kp BACKSPACE  &kp BACKSPACE  &kp RIGHT_BRACKET  &kp LGUI  &kp SPACE  &kp LEFT_BRACKET  &kp SPACE   &mo 2  &kp ENTER  &kp MINUS     &mo 1  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
